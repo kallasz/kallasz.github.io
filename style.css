@@ -6,3 +6,11 @@ body{
 a:visited{
     color: lightblue;
 }
+button{
+    color: white;
+    background-color: grey;
+    border-radius: 0px;
+    border: 1px solid white;
+    margin: 2px;
+    text-align: center;
+}
