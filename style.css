@@ -2,6 +2,7 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: black;
     color: white;
+
 }
 a:visited{
     color: lightblue;
@@ -13,4 +14,15 @@ button{
     border: 1px solid white;
     margin: 2px;
     text-align: center;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
 }
