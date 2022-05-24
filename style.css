@@ -2,7 +2,6 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: black;
     color: white;
-
 }
 a:visited{
     color: lightblue;
@@ -22,7 +21,6 @@ button{
 }
 span{
     vertical-align: middle;
-    
 }
 footer{
     position: fixed;
@@ -34,23 +32,34 @@ footer{
 .grid{
     display: grid;
     grid-template-columns: 40% 20% 40%;
-    
 }
-.item{
+.footer-pic{
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
 }
-.leftitem{
+.footer-left{
     display: flex;
     flex-direction: row-reverse;
     text-align: right;
     align-items: center;
 }
-.rightitem{
+.footer-right{
     display: flex;
     flex-direction: row;
     text-align: left;
     align-items: center;
+}
+
+.toc-grid{
+    display: grid;
+    border: 1px solid white;
+    border-radius: 5px;
+    grid-template-columns: repeat(5, 20%);
+
+}
+
+.toc-item{
+
 }
