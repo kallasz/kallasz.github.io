@@ -14,6 +14,15 @@ button{
     border: 1px solid white;
     margin: 2px;
     text-align: center;
+    height: 20px;
+    
+}
+.addedButton{
+    width: 20px;
+    padding: 0px 0px;
+}
+span{
+    vertical-align: middle;
 }
 footer{
     position: fixed;
@@ -24,5 +33,14 @@ footer{
 }
 .grid{
     display: grid;
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: 40% 20% 40%;
+}
+.item{
+    text-align: center;
+}
+.leftitem{
+    text-align: right;
+}
+.rightitem{
+    text-align: left;
 }

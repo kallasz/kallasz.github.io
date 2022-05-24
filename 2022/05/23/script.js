@@ -5,7 +5,11 @@ let b = document.querySelector('body')
 function generateTheButtons(){
     for (let i = 0; i < 10; i++) {
         let e = document.createElement('button');
-        e.innerHTML = i;
+        let s = document.createElement('span');
+        s.innerHTML = i;
+        e.appendChild(s);
+        
+        e.className = "addedButton";
         b.appendChild(e);
     }
 }
