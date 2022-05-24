@@ -2,6 +2,7 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: black;
     color: white;
+    white-space: pre;
 }
 a:visited{
     color: lightblue;
@@ -60,6 +61,41 @@ footer{
 
 }
 
-.toc-item{
+.item{
+    display: flex;
+    padding: 5px 5px 5px 5px;
+    align-items: center;
+}
 
+.card{
+    display: grid;
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 45%;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1000px;
+    justify-content: center;
+    
+}
+
+.button{
+    justify-content: center;
+    border-top: 1px solid white;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.button:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+.link{
+    display: none;
+}
+
+h1{
+    text-align: center;
 }
