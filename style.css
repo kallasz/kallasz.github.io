@@ -44,11 +44,13 @@ footer{
 }
 .leftitem{
     display: flex;
+    flex-direction: row-reverse;
     text-align: right;
     align-items: center;
 }
 .rightitem{
     display: flex;
+    flex-direction: row;
     text-align: left;
     align-items: center;
 }
