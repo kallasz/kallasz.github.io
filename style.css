@@ -1,3 +1,6 @@
+@import "footer.css";
+@import "toc.css";
+
 body{
     font-family: 'Roboto', sans-serif;
     background-color: black;
@@ -23,62 +26,20 @@ button{
 span{
     vertical-align: middle;
 }
-footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-}
-.grid{
-    display: grid;
-    grid-template-columns: 40% 20% 40%;
-}
-.footer-pic{
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-.footer-left{
-    display: flex;
-    flex-direction: row-reverse;
-    text-align: right;
-    align-items: center;
-}
-.footer-right{
-    display: flex;
-    flex-direction: row;
-    text-align: left;
-    align-items: center;
-}
-
-.toc-grid{
-    display: grid;
-    border: 1px solid white;
-    border-radius: 5px;
-    grid-template-columns: repeat(5, 20%);
-
-}
-
-.item{
-    display: flex;
-    padding: 5px 5px 5px 5px;
-    align-items: center;
-}
-
-.card{
-    display: grid;
-    border: 1px solid white;
-    border-radius: 15px;
-    width: 45%;
-}
 
 main{
     display: grid;
-    grid-template-columns: 1000px;
     justify-content: center;
-    
+}
+
+@media screen and (min-width: 1200px) {
+    main{
+        grid-template-columns: 1000px;
+    }
+    .toc{
+        grid-template-columns: repeat(2, 500px);
+    }
+
 }
 
 .button{

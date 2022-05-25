@@ -1,0 +1,17 @@
+.item{
+    display: flex;
+    padding: 5px 5px 5px 5px;
+    align-items: center;
+}
+
+.card{
+    display: grid;
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 90%;
+}
+
+.toc{
+    display: grid;
+    justify-items: center;
+}

@@ -1,0 +1,29 @@
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+}
+.footer-pic{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.footer-left{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+    align-items: center;
+}
+.footer-right{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+}
