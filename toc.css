@@ -1,5 +1,5 @@
-.item{
-    display: flex;
+.toc-item{
+    display: block;
     padding: 5px 5px 5px 5px;
     align-items: center;
 }
@@ -43,16 +43,14 @@
     }
 }
 
-
-.button{
+.toc-button{
     justify-content: center;
     border-top: 1px solid white;
     border-radius: 0px 0px 15px 15px;
 }
 
-.button:hover{
+.toc-button:hover{
     background-color: orange;
-    cursor: pointer;
 }
 
 .link{

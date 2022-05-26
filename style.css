@@ -1,34 +1,15 @@
-@import "footer.css";
 @import "toc.css";
+@import "navbar.css";
 
 body{
     font-family: 'Roboto', sans-serif;
     background-color: black;
     color: white;
-    white-space: pre;
+    margin-top: 50px;
 }
 
 a:visited{
     color: lightblue;
-}
-
-button{
-    color: white;
-    background-color: grey;
-    border-radius: 0px;
-    border: 1px solid white;
-    margin: 2px;
-    text-align: center;
-    height: 20px;
-}
-
-.addedButton{
-    width: 20px;
-    padding: 0px 0px;
-}
-
-span{
-    vertical-align: middle;
 }
 
 main{
@@ -38,4 +19,14 @@ main{
 
 h1{
     text-align: center;
+}
+
+.button{
+    display: flex;
+    padding: 5px 5px 5px 5px;
+    align-items: center;
+}
+.button:hover{
+    cursor: pointer;
+    color: black;
 }
