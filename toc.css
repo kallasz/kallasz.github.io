@@ -13,5 +13,48 @@
 
 .toc{
     display: grid;
+    row-gap: 15px;
     justify-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 700px) {
+    main{
+        grid-template-columns: 100%;
+    }
+    .toc{
+        grid-template-columns: 95%;
+    }
+}
+@media screen and (min-width: 700px) {
+    main{
+        grid-template-columns: 90%;
+    }
+    .toc{
+        grid-template-columns: 80%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    main{
+        grid-template-columns: 1000px;
+    }
+    .toc{
+        grid-template-columns: repeat(2, 500px);
+    }
+}
+
+
+.button{
+    justify-content: center;
+    border-top: 1px solid white;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.button:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+.link{
+    display: none;
 }

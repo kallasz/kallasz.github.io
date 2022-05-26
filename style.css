@@ -7,9 +7,11 @@ body{
     color: white;
     white-space: pre;
 }
+
 a:visited{
     color: lightblue;
 }
+
 button{
     color: white;
     background-color: grey;
@@ -19,10 +21,12 @@ button{
     text-align: center;
     height: 20px;
 }
+
 .addedButton{
     width: 20px;
     padding: 0px 0px;
 }
+
 span{
     vertical-align: middle;
 }
@@ -30,31 +34,6 @@ span{
 main{
     display: grid;
     justify-content: center;
-}
-
-@media screen and (min-width: 1200px) {
-    main{
-        grid-template-columns: 1000px;
-    }
-    .toc{
-        grid-template-columns: repeat(2, 500px);
-    }
-
-}
-
-.button{
-    justify-content: center;
-    border-top: 1px solid white;
-    border-radius: 0px 0px 15px 15px;
-}
-
-.button:hover{
-    background-color: orange;
-    cursor: pointer;
-}
-
-.link{
-    display: none;
 }
 
 h1{
