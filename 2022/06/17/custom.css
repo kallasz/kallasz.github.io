@@ -1,0 +1,39 @@
+button{
+    border: 1px black solid;
+    margin: 10px 0px 10px 0px;
+    width: 75px;
+    justify-self: right;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: white;
+    transition: 0.2s;
+}
+button:hover{
+    background-color: whitesmoke;
+}
+
+input{
+    border: 1px black solid;
+    padding: 5px;
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+textarea{
+    padding: 5px;
+    margin: 10px 0px 10px 0px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 30px;
+    box-sizing: border-box;
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+}
+
+.title-grid{
+    display: grid;
+    grid-template-columns: auto 100px 100px;
+}

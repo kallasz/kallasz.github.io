@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cookie example</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="custom.css">
+    <link rel="shortcut icon" href="../../../favicon.ico" type="image/x-icon">
+    <script src="../../../navbar.js" defer></script>
+    <script src="custom.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>cookie example (and input:text, textarea)</h1>
+        <h2>the text bar and the button: </h2>
+        <p><strong>the goal:</strong> when you click to the save button, a cookie saves your text, which you write to the text box</p>
+        <p>they use "box-sizing: border-box;" to avoid width-padding conflict</p>
+        <p><strong>note: </strong> do not use "/-/"</p>
+        <div class="title-grid">
+            <input type="text" placeholder="title" id="title-input">
+            <button id="save">save</button>
+            <button id="load">load</button>
+        </div>
+        
+        <textarea type="text" placeholder="write something" id="textarea"></textarea>
+        
+    </main>
+</body>
+</html>
