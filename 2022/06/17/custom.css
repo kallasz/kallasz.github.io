@@ -19,6 +19,7 @@ input{
     width: 100%;
     box-sizing: border-box;
     border-radius: 10px;
+    font-size: 15px;
 }
 
 textarea{
@@ -31,9 +32,17 @@ textarea{
     height: 100px;
     font-family: 'Roboto', sans-serif;
     border-radius: 10px;
+    font-size: 15px;
 }
 
 .title-grid{
     display: grid;
     grid-template-columns: auto 100px 100px;
+}
+
+.date-grid{
+    display: grid;
+    grid-template-columns: auto 300px auto 300px;
+    justify-content: right;
+    column-gap: 20px;
 }
