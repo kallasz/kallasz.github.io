@@ -1,20 +1,19 @@
-@import "toc.css";
+/* @import "custom.css"; */
 @import "navbar.css";
 
 body{
     font-family: 'Roboto', sans-serif;
     background-color: black;
     color: white;
-    margin-top: 50px;
-}
-
-a:visited{
-    color: lightblue;
+    margin: 40px 0px 0px 0px;
+    padding: 10px;
 }
 
 main{
-    display: grid;
+    margin: auto;
+    max-width: 1000px;
     justify-content: center;
+    justify-items: center;
 }
 
 h1{
@@ -26,7 +25,12 @@ h1{
     padding: 5px 5px 5px 5px;
     align-items: center;
 }
+
 .button:hover{
     cursor: pointer;
     color: black;
+}
+
+.link{
+    display: none;
 }

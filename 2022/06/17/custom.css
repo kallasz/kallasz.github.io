@@ -12,14 +12,17 @@ button:hover{
     background-color: whitesmoke;
 }
 
-input{
-    border: 1px black solid;
+main input{
+    border: 1px white solid;
     padding: 5px;
     margin: 10px 0px 10px 0px;
     width: 100%;
     box-sizing: border-box;
     border-radius: 10px;
     font-size: 15px;
+
+    color: rgba(245, 245, 245, 0.888);
+    background-color: rgba(255, 255, 255, 0.075);
 }
 
 textarea{
@@ -33,6 +36,10 @@ textarea{
     font-family: 'Roboto', sans-serif;
     border-radius: 10px;
     font-size: 15px;
+    
+    border: 1px white solid;
+    color: rgba(245, 245, 245, 0.888);
+    background-color: rgba(255, 255, 255, 0.075);
 }
 
 .title-grid{

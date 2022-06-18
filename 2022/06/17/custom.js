@@ -18,17 +18,44 @@ datevar.setFullYear(datevar.getFullYear()+1);
 date.value = datevar.toISOString().substring(0, 10);
 time.value = datevar.toTimeString().substring(0, 8);
 
+
+function setCookie(name, value, expire) {
+    document.cookie = `${name}=${value};expires=${expire};path=/;SameSite=None;secure`;
+}
+
+function getCookie(name) {
+    let cookies = document.cookie.split(';');
+    let i = 0;
+    // let temp = cookies[i].split('=');
+    // while (i < cookies.length && temp[0].split(' ') != name) {
+    //     i++;
+    //     if (i < cookies.length) {
+    //         temp = cookies[i].split('=');
+    //     }
+    // }
+    // return temp[1];
+
+    while (i < cookies.length && !cookies[i].split('=')[0].endsWith(name)) {
+        i++;
+    }
+    return cookies[i].split('=')[1];
+}
+
 function save() {
     let setDate = new Date(`${date.value} ${time.value}`);
-    document.cookie = `${title.value}/-/${text.value}; expires=${setDate.toUTCString()}`;
+    setCookie("title", title.value, setDate);
+    setCookie("text", text.value, setDate);
+    setCookie("expire", setDate.toString(), setDate);
     bsave.style.backgroundColor = "green";
-    console.log(setDate.toUTCString());
 }
 
 function load() {
-    let temp = document.cookie.split('/-/');
-    title.value = temp[0];
-    text.value = temp[1];
+    title.value = getCookie("title");
+    text.value = getCookie("text");
+
+    let datevar = new Date(getCookie("expire"));
+    date.value = datevar.toISOString().substring(0, 10);
+    time.value = datevar.toTimeString().substring(0, 8);
     bload.style.backgroundColor = "green";
 }
 
@@ -36,7 +63,3 @@ function change() {
     bsave.style.backgroundColor = "white";
     bload.style.backgroundColor = "white";
 }
-
-load();
-save();
-change();

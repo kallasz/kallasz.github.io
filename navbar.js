@@ -29,12 +29,14 @@ function header() {
 
     let div_item = document.createElement('div');
     div_item.className = "nav-item";
-    div_item.innerHTML = `<img src="https://kallasz.github.io/favicon.ico" alt="favicon">`;
+    // div_item.innerHTML = `<img src="https://kallasz.github.io/favicon.ico" alt="favicon">`;
+    div_item.innerHTML = `<img src="/favicon.ico" alt="favicon">`;
     div_grid.appendChild(div_item);
 
     let div_item2 = document.createElement('div');
     div_item2.className = "nav-item button nav-button";
-    div_item2.innerHTML = '<strong>FAVORITES</strong><span class="link">https://kallasz.github.io/2022/05/26</span>';
+    // div_item2.innerHTML = '<strong>FAVORITES</strong><span class="link">https://kallasz.github.io/2022/05/26</span>';
+    div_item2.innerHTML = '<strong>FAVORITES</strong><span class="link">/2022/05/26</span>';
     div_grid.appendChild(div_item2);
 
     let div_item3 = document.createElement('div');
@@ -44,7 +46,8 @@ function header() {
 
     let div_item4 = document.createElement('div');
     div_item4.className = "nav-item nav-search";
-    div_item4.innerHTML = "THERE WILL BE A SEARCH BAR I HOPE";
+    // div_item4.innerHTML = "THERE WILL BE A SEARCH BAR I HOPE";
+    div_item4.innerHTML = '<input type="search" id="search" placeholder="SEARCH">';
     div_grid.appendChild(div_item4);
 }
 
