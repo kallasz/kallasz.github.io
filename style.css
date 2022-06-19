@@ -66,3 +66,19 @@ h1{
     }
 }
 
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background: black;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(26, 26, 26);
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: rgba(26, 26, 26, 0.5);
+}
