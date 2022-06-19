@@ -82,3 +82,11 @@ textarea{
         justify-self: left;
     }
 }
+
+@media screen and (max-width: 800px) {
+    .date-grid{
+        grid-template-columns: auto 50%;
+        grid-template-rows: auto auto;
+        justify-items: right;
+    }
+}
