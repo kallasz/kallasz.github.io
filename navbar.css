@@ -46,10 +46,6 @@ header{
     justify-content: right;
 }
 
-#search{
-    display: none;
-}
-
 .menu{
     display: grid;
     grid-template-rows: max-content max-content;

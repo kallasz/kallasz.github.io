@@ -69,7 +69,6 @@ function header() {
 
     let divItem4 = document.createElement('div');
     divItem4.className = "nav-item button search-button";
-    divItem4.id = "search";
     divItem4.innerHTML = '<strong>SEARCH</strong>';
     div_grid.appendChild(divItem4);
 

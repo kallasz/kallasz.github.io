@@ -10,6 +10,7 @@ button{
 }
 button:hover{
     background-color: whitesmoke;
+    cursor: pointer;
 }
 
 main input{
@@ -20,6 +21,7 @@ main input{
     box-sizing: border-box;
     border-radius: 10px;
     font-size: 15px;
+    font-family: 'Roboto', sans-serif;
 
     color: rgba(245, 245, 245, 0.888);
     background-color: rgba(255, 255, 255, 0.075);
