@@ -42,7 +42,7 @@
     row-gap: 15px;
     justify-items: center;
     justify-content: center;
-    grid-template-columns: 95%;
+    grid-template-columns: 100%;
 }
 
 .toc-button{

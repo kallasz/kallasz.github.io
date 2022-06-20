@@ -2,3 +2,8 @@
     display: flex;
 }
 
+@media screen and (max-width: 800px) {
+    #search{
+        display: none;
+    }
+}

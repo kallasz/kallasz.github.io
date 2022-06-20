@@ -82,6 +82,10 @@ header{
     width: 100%;
 }
 
+#search{
+    display: none;
+}
+
 .search-button:hover{
     background-color: lightblue;
 }
