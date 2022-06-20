@@ -73,9 +73,9 @@ h1{
 }
 
 ::-webkit-scrollbar-thumb{
-    background: rgb(26, 26, 26);
+    background: rgb(56, 56, 56);
 }
 
 ::-webkit-scrollbar-thumb:hover{
-    background: rgba(26, 26, 26, 0.5);
+    background: rgba(56, 56, 56, 0.5);
 }
